@@ -13,11 +13,11 @@ const Home = () => {
         cuisine
       </p>
       <button onClick={() => navigate("/menu-card")}>View Menu Card</button>{" "}
-      {/* 这将跳转到MenuCard页面 */}
+
       <button onClick={() => navigate("/opening-hours")}>
         Opening Hours
       </button>{" "}
-      {/* 这将跳转到OpeningHours页面 */}
+    
       <img
         src={HomeImage}
         alt="Homeimage"
